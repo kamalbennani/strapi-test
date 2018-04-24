@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/institution",
+      "handler": "Institution.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/institution/:_id",
+      "handler": "Institution.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/institution",
+      "handler": "Institution.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/institution/:_id",
+      "handler": "Institution.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/institution/:_id",
+      "handler": "Institution.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

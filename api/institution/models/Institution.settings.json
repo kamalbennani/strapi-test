@@ -1,0 +1,45 @@
+{
+  "connection": "default",
+  "collectionName": "institutions",
+  "info": {
+    "name": "institution",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "multiple": false,
+      "type": "string",
+      "required": true
+    },
+    "shortName": {
+      "multiple": false,
+      "type": "string"
+    },
+    "slug": {
+      "multiple": false,
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "email": {
+      "multiple": false,
+      "type": "email"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "timezone": {
+      "multiple": false,
+      "type": "string"
+    },
+    "courses": {
+      "collection": "course",
+      "via": "institution"
+    }
+  }
+}

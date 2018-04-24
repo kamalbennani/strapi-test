@@ -1,0 +1,60 @@
+{
+  "batch": {
+    "attributes": {
+      "code": {
+        "appearance": ""
+      },
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "course": {
+    "attributes": {
+      "code": {
+        "appearance": ""
+      },
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "institution": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "shortName": {
+        "appearance": ""
+      },
+      "slug": {
+        "appearance": ""
+      },
+      "email": {
+        "appearance": ""
+      },
+      "timezone": {
+        "appearance": ""
+      }
+    }
+  },
+  "subject": {
+    "attributes": {
+      "code": {
+        "appearance": ""
+      },
+      "name": {
+        "appearance": ""
+      },
+      "description": {
+        "appearance": ""
+      },
+      "hourlyVolume": {
+        "appearance": ""
+      },
+      "isActive": {
+        "appearance": ""
+      }
+    }
+  }
+}

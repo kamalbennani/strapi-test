@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "courses",
+  "info": {
+    "name": "course",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "code": {
+      "multiple": false,
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "multiple": false,
+      "type": "string"
+    },
+    "batches": {
+      "via": "course"
+    },
+    "institution": {
+      "model": "institution",
+      "via": "courses",
+      "plugin": ""
+    },
+    "subjects": {
+      "collection": "subject",
+      "via": "course"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "batches",
+  "info": {
+    "name": "batch",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "multiple": false,
+      "type": "string"
+    },
+    "course": {
+      "via": "batches"
+    },
+    "affectedSubjects": {
+      "collection": "subject",
+      "via": "batches"
+    }
+  }
+}

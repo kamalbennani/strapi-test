@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/batch",
+      "handler": "Batch.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/batch/:_id",
+      "handler": "Batch.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/batch",
+      "handler": "Batch.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/batch/:_id",
+      "handler": "Batch.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/batch/:_id",
+      "handler": "Batch.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

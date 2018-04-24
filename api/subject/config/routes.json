@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/subject",
+      "handler": "Subject.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/subject/:_id",
+      "handler": "Subject.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/subject",
+      "handler": "Subject.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/subject/:_id",
+      "handler": "Subject.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/subject/:_id",
+      "handler": "Subject.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
