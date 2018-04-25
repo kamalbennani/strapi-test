@@ -13,12 +13,14 @@
       "multiple": false,
       "type": "string"
     },
-    "course": {
-      "via": "batches"
-    },
     "affectedSubjects": {
       "collection": "subject",
       "via": "batches"
+    },
+    "course": {
+      "model": "course",
+      "via": "batchesss",
+      "plugin": ""
     }
   }
 }
